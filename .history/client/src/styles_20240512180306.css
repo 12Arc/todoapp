@@ -1,0 +1,23 @@
+.box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+   
+
+}
+
+.inputbox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+  

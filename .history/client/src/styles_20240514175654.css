@@ -1,0 +1,66 @@
+
+.box {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  
+  
+  flex-direction: column;
+
+}
+
+/* Styles for the input container */
+.inputbox {
+  width: 100%; /* Adjust based on preference, e.g., 80% of the parent width */
+  display: flex;
+  margin-bottom: 20%;
+
+
+}
+
+/* Ensure the input field itself is styled appealingly */
+input {
+  width: 60%; /* Fill the container */
+  padding: 12px 20px; /* Padding for aesthetics */
+  font-size: 16px; /* Sufficiently large font size for readability */
+  
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Reset default margins and paddings */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: coral;
+}
+
+.button{
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: lightcoral;
+
+
+}
+
+td,th{
+  border: 1px solid #777;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+.strike {
+  text-decoration: line-through;
+}

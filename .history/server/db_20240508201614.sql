@@ -1,0 +1,6 @@
+CREATE DATABASE PERN;
+
+CREATE TABLE todo(
+
+    todo_id 
+)
