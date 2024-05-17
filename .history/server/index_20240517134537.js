@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, '..', 'client', 'build')));
 app.use('/todolist', taskroutes);
 
 // Example API route
-app.get('/', (req, res) => {
+app.get('/, (req, res) => {
   res.json({ message: 'Hello from the API' });
 });
 
