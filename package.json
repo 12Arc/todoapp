@@ -2,12 +2,14 @@
     "name": "my-project",
     "version": "1.0.0",
     "scripts": {
-      "heroku-postbuild": "npm install --prefix server && npm install --prefix server/client && npm run build --prefix server/client",
-      "start": "npm start --prefix server"
+        "heroku-postbuild": "npm install --prefix server && npm install --prefix server/client && npm run build --prefix server/client",
+        "start": "npm start --prefix server"
     },
-
     "engines": {
         "node": "20.x",
         "npm": "10.x"
-      }
-  }
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3"
+    }
+}
