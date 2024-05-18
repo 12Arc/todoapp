@@ -4,7 +4,7 @@
     "scripts": {
       "heroku-postbuild": "npm install --prefix server && npm install --prefix server/client && npm run build --prefix server/client",
       "start": "npm start --prefix server"
-    },
+    }
 
     "engines": {
         "node": "20.x",
